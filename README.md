@@ -73,6 +73,7 @@ Implementasikan konsep modularisasi pada kode program praktikum 8 tentang databa
 sehingga setiap halamannya memiliki template tampilan yang sama. Dan terapkan
 penggunaan Routing agar project menjadi lebih modular.
 Gunakan struktur direktory seperti berikut:
+
 project/
 ├── index.php
 ├── config/
