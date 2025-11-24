@@ -117,32 +117,26 @@ Contoh URL: (base-domain)/user/list
 
 #### Struktur Folder
 ```markdown
-C:.
-|   .htaccess
-|   index.php
-|   tree.txt
-|   
-+---assets
-|   +---css
-|   |       style.css
-|   |       
-|   +---img
-|   \---js
-+---config
-|       database.php
-|       
-+---modules
-|   +---auth
-|   |       login.php
-|   |       logout.php
-|   |       
-|   \---user
-|           add.php
-|           delete.php
-|           edit.php
-|           list.php
-|           
-\---views
-        footer.php
-        header.php
+./
+├── .htaccess
+├── index.php
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── img/
+│   └── js/
+├── config/
+│   └── database.php
+├── modules/
+│   ├── auth/
+│   │   ├── login.php
+│   │   └── logout.php
+│   └── user/
+│       ├── add.php
+│       ├── delete.php
+│       ├── edit.php
+│       └── list.php
+└── views/
+    ├── footer.php
+    └── header.php
 ```
