@@ -93,12 +93,23 @@ project/
     ├── css/
     └── js/
 
+Routing menggunakan url: index.php?page=user/list
+Opsional: Gunakan htaccess agar url lebih SEO Friendly.
+Contoh URL: (base-domain)/user/list
+
 ### Jawaban:
 
+#### Tampilan Awal
 <img src="gambar/2.png" width="500"/>
+
+#### Tambah Barang
 <img src="gambar/3.png" width="500"/>
 <img src="gambar/4.png" width="500"/>
+
+#### Ubah
 <img src="gambar/5.png" width="500"/>
 <img src="gambar/6.png" width="500"/>
+
+#### Hapus (dan bisa terlihat routingnya seperti contoh URL yang ada di Pertanyaan dan Tugas)
 <img src="gambar/7.png" width="500"/>
 <img src="gambar/8.png" width="500"/>
