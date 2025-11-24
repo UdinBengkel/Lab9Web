@@ -43,4 +43,27 @@
 </body>
 </html>
 ```
+#### 3. home.php
+```php
+<?php require('header.php'); ?>
 
+<div class="content">
+    <h2>Ini Halaman Home</h2>
+    <p>Ini adalah bagian content dari halaman.</p>
+</div>
+
+<?php require('footer.php'); ?>
+```
+#### 4. about.php
+```php
+<?php require('header.php'); ?>
+
+<div class="content">
+    <h2>Ini Halaman About</h2>
+    <p>Ini adalah bagian content dari halaman.</p>
+</div>
+
+<?php require('footer.php'); ?>
+```
+
+<img src="gambar/1.png" width="500"/>
