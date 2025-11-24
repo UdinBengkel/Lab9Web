@@ -67,3 +67,9 @@
 ```
 
 <img src="gambar/1.png" width="500"/>
+
+### Pertanyaan dan Tugas
+Implementasikan konsep modularisasi pada kode program praktikum 8 tentang database,
+sehingga setiap halamannya memiliki template tampilan yang sama. Dan terapkan
+penggunaan Routing agar project menjadi lebih modular.
+Gunakan struktur direktory seperti berikut:
