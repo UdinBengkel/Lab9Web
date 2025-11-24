@@ -114,3 +114,35 @@ Contoh URL: (base-domain)/user/list
 #### Hapus (dan bisa terlihat routingnya seperti contoh URL yang ada di Pertanyaan dan Tugas)
 <img src="gambar/7.png" width="500"/>
 <img src="gambar/8.png" width="500"/>
+
+#### Struktur Folder
+```markdown
+C:.
+|   .htaccess
+|   index.php
+|   tree.txt
+|   
++---assets
+|   +---css
+|   |       style.css
+|   |       
+|   +---img
+|   \---js
++---config
+|       database.php
+|       
++---modules
+|   +---auth
+|   |       login.php
+|   |       logout.php
+|   |       
+|   \---user
+|           add.php
+|           delete.php
+|           edit.php
+|           list.php
+|           
+\---views
+        footer.php
+        header.php
+```
